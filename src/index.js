@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.render(
   <Provider>
     <PersistGate loading={null}>
-      <BrowserRouter basename="kapusta-project">
+      <BrowserRouter basename="delivery-app">
         <App />
       </BrowserRouter>
     </PersistGate>
