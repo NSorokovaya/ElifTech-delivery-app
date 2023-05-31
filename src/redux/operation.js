@@ -35,7 +35,7 @@ export const addToStore = createAsyncThunk(
   }
 );
 
-export const deleteFromStire = createAsyncThunk(
+export const deleteFromStore = createAsyncThunk(
   'menu/remove-dish',
   async (menuId, thunkAPI) => {
     try {
