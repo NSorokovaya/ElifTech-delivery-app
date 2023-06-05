@@ -1,4 +1,4 @@
-export const cafeList = state => state.menu.cafeList;
-export const menuByCategory = state => state.menu.menuByCategory;
-export const shoppingList = state => state.menu.shoppingList;
-export const order = state => state.menu.order;
+export const getCafeList = state => state.menu.cafeList;
+export const getMenuByCategory = state => state.menu.menuByCategory;
+export const getShoppingList = state => state.menu.shoppingList;
+export const getOrder = state => state.menu.order;
